@@ -1,20 +1,3 @@
-/**
- * Title: Network Broadcasting
- * Author: Michael Femi-Lawal
- *
- * This function takes in an input from a user, which will
- * contain the number of connections as well as directed
- * connections on each line following that. These are placed
- * onto a map, with computers ending with "_server" being put
- * on a map for future reference. A graph is then initialized,
- * with each connection being put in. Afterwards, the graph
- * will used dijkstra's method on any server found within the
- * graph. If none is found, there will be no server found with
- * minimum delay time. Otherwise, the program will display
- * the minimum total delay time alongside the server.
- *
- */
-
 #include <iostream>
 #include <map>
 #include "graph.h"
