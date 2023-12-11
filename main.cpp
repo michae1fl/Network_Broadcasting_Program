@@ -6,7 +6,7 @@ const int INFINITE_COST = 1000000000;
 
 using namespace std;
 
-int main() {
+int main(int argc, char **argv) {
 
     int edges, inputDelays, counter = 0;
     string inputFrom, inputTo;
