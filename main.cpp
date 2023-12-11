@@ -92,7 +92,8 @@ int main(int argc, char **argv) {
             lowestCost = totalCost;
             bestServers.clear();
             bestServers.push_back(locationMap[server]);
-        } else if (totalCost == lowestCost) {
+        }
+        else if (totalCost == lowestCost) {
             bestServers.push_back(locationMap[server]);
         }
     }

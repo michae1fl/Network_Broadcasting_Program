@@ -1,5 +1,5 @@
-#ifndef ARRAY_HEAP_PROF_PROJ6_H
-#define ARRAY_HEAP_PROF_PROJ6_H
+#ifndef ARRAYHEAP_H
+#define ARRAYHEAP_H
 
 #include <algorithm>
 #include <iostream>
